@@ -1,0 +1,38 @@
+// for 문 연습
+for i in range(10):
+    print('Hello, world!', i)
+print()
+
+for i in range(5, 12):
+    print('bye', i)
+print()
+
+for i in range(0, 10, 2):
+    print('안녕하세요', i)
+print()
+
+for i in range(10, 0, -1):
+    print('bye', i)
+print()
+
+for i in reversed(range(10)):
+    print('바이', i)
+print()
+
+count = int(input('반복할 횟수: '))
+for i in range(count):
+    print('python', i)
+print()
+
+a = [10, 20, 30, 40, 50]
+for i in a:
+    print(i)
+print()
+
+fruits = ('apple', 'orange', 'grape')
+for fruit in fruits:
+    print(fruit)
+print()
+
+for letter in reversed('Python'):
+    print(letter, end=' ')
