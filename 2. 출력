@@ -1,0 +1,12 @@
+// 출력 연습
+print(1, 2, 3)
+print('Hello', 'Python')
+
+print(1, 2, 4, sep=', ')
+print('Hello', 'Python', sep="")
+
+print(1, 2, 3, sep='\n')
+
+print(1, end="")
+print(2, end='')
+print(3, end='')
