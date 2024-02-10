@@ -1,0 +1,33 @@
+// 변수
+x, y, z = 10, 20, 30
+print(x, y, z)
+
+a = b = c = 10
+print(a, b, c)
+
+i, j =10, 20
+i, j = j, i
+print(i, j)
+
+k = None
+print(k)
+
+w = x + y
+print(w)
+
+d = 10
+d += 10
+print(d)
+
+e = input('입력 : ')
+print("결과 : " + e)
+
+f = input('입력1 : ')
+g = input('입력2 : ')
+print('f + g =', f + g)
+
+m, n = input('두 개 입력 : ').split()
+print(m, n)
+
+o, p = map(int, input('두 수 입력 : ').split())
+print('합 :', o + p)
