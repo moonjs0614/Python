@@ -1,0 +1,35 @@
+// 계단식 별 출력 연습
+for i in range(5):
+    for j in range(5):
+        print('j:', j, sep='', end=' ')
+    print('i:', i, '\\n', sep='')
+print()
+    
+for i in range(5):
+    for j in range(5):
+        print('*', end='')
+    print()
+print()
+
+# 3X7
+for i in range(3):
+    for j in range(7):
+        print('*', end='')
+    print()
+print()
+
+# 계단식
+for i in range(5):
+    for j in range(5):
+        if j <= i:
+            print('*', end='')
+    print()
+print()
+
+for i in range(5):
+    for j in range(5):
+        if j == i:
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print()
