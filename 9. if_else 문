@@ -1,0 +1,68 @@
+// if_else 문 연습
+x = 5
+if x == 10:
+    print('10 입니다.')
+else:
+    print('10이 아닙니다.')
+print()
+    
+    
+if True:
+    print('참')
+else:
+    print('거짓')
+    
+if False:
+    print('거짓')
+else:
+    print('참')
+
+if None:
+    print('참')
+else:
+    print('거짓')
+print()
+
+if 0:
+    print('참')
+else:
+    print('거짓')
+
+if 1:
+    print('참')
+else:
+    print('거짓')
+
+if 0x1F:
+    print('참')
+else:
+    print('거짓')
+    
+if 0b1000:
+    print('참')
+else:
+    print('거짓')
+    
+if 13.5:
+    print('참')
+else:
+    print('거짓')
+print()
+
+if 'Hello':
+    print('참')
+else:
+    print('거짓')
+    
+if '':
+    print('참')
+else:
+    print('거짓')
+print()
+
+a = 10
+b = 20
+if a == 10 and b == 20:
+    print('참')
+else:
+    print('거짓')
