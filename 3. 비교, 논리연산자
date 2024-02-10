@@ -1,0 +1,26 @@
+// 비교, 논리연산자 연습
+print(3 > 1)
+print()
+
+print('Python' == 'Python')
+print('Python' == 'python')
+print('Python' != 'python')
+print()
+
+print(1 is not 1.0)
+print(id(1))
+print(id(1.0))
+print()
+
+print(bool(1))
+print(bool(0))
+print(bool(1.5))
+print()
+
+print(False and True) #False
+print(False and False) #False
+# and 연산자에서 앞이 False 면 뒤에 볼 필요 없이 False
+print(True or True) #True
+print(True or False) #True
+# or 연산자에서 앞이 True 면 뒤에 볼 필요 없이 True
+# -----> 단락 평가
