@@ -1,0 +1,30 @@
+// 시퀀스 자료형 연습
+#시퀀스 자료형 : 리스트, 튜플, range, 문자열 등등 연속된 자료형
+
+a = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+print(30 in a)
+
+b = [0, 10, 20, 30]
+c = [9, 8, 7, 6]
+print(b + c)
+print(b * 3)
+print(len(b))
+print(b[0])
+print(b[-1])
+
+d = [1, 2, 3]
+del d[1]
+print(d)
+print()
+
+print(b[0:2])
+print(a[2:8:3])
+print(c[1:])
+print(a[:])
+print(a[:len(a)])
+print()
+
+a[2:5] = ['a', 'b', 'c', 'd', 'e']
+print(a)
+del a[2:5]
+print(a)
