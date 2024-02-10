@@ -1,0 +1,25 @@
+// if문 연습
+x = 10
+if x == 10:
+    print('10입니다.')
+    
+y = 5    
+if y == 10:
+    print('y에 들어있는 숫자는')
+print('10입니다.')
+
+z = 15
+if z >= 10:
+    print('10 이상입니다.')
+    
+    if z == 15:
+        print('15 입니다.')
+        
+    if z == 20:
+        print('20 입니다.')
+        
+a = int(input())
+if a == 10:
+    print('10 입니다.')
+if a == 20:
+    print('20 입니다.')
