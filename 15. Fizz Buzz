@@ -1,0 +1,36 @@
+// Fizz Buzz 연습
+# 3의 배수 -> Fizz
+# 5의 배수 -> Buzz
+
+for i in range(1, 101):
+    if i % 3 == 0:
+        print('Fizz')
+    elif i % 5 == 0:
+        print('Buzz')
+    else:
+        print(i)
+print()
+
+# 3과 5의 공배수 처리
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print('FizzBuzz')
+    elif i % 3 == 0:
+        print('Fizz')
+    elif i % 5 == 0:
+        print('Buzz')
+    else:
+        print(i)
+print()
+
+# 단축화
+
+for i in range(1, 101):
+    print('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i)
+print()
+    
+print('Fizz' + 'Buzz')
+print('Fizz' * True)
+print('Fizz' * False)
+print()
+
