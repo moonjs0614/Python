@@ -1,0 +1,69 @@
+// 문자열 조작 연습
+print('Hello, world!'.replace('world', 'Python'))
+s = 'Hello, world!'
+s = s.replace('world!', 'Python')
+print(s)
+print()
+
+table = str.maketrans('aeiou', '12345')
+print('apple'.translate(table))
+print()
+
+print('apple pear greape pineapple orange'.split())
+print('-'.join(['apple', 'pear', 'grape', 'pineapple', 'orange']))
+print()
+
+print('python'.upper())
+print('PYTHON'.lower())
+print('!', '    python    '.lstrip(), '!')
+print('!', '    python    '.rstrip(), '!')
+print('!', '    python    '.strip(), '!')
+print('!', ', python .'.lstrip(',.'), '!')
+print('!', ', python .'.rstrip(',.'), '!')
+print('!', ', python .'.strip(',.'), '!')
+print('!', 'python'.ljust(10), '!')
+print('!', 'python'.rjust(10), '!')
+print('!', 'python'.center(10), '!')
+print('!', 'python'.center(11), '!')
+print('!', 'python'.rjust(10).upper(), '!')
+print()
+
+print('35'.zfill(4))
+print('3.5'.zfill(6))
+print('hello'.zfill(10))
+print()
+
+print('apple pineapple'.find('pl')) #lfind와 같음
+print('apple pineapple'.rfind('pl')) #rindex 와 같음
+print('apple pineapple'.index('pl')) #왼쪽부터
+print('apple pineapple'.find('xy'))
+# find, rfind, index 모두 처음 찾은 값만 반환
+print('apple pineapple'.count('pl'))
+print()
+
+print('I am %s.' % 'james')
+name = 'maria'
+print('I am %s.' % name)
+print('I am %d years old.' % 20)
+print('!', '%10s' % 'python', '!')
+print('!', '%-10s' % 'python', '!')
+print('Hello, {0}'.format('world!'))
+print('Hello, {0}'.format(100))
+print('{0} {0} {1} {1}'.format('Python', 'Script')) #두개씩
+print('Hello, {} {} {}'.format('Python', 'Script', 3.6)) #인덱스 생략시 순서대로
+print('Hello, {language} {version}'.format(language='Python', version=3.6)) #인덱스 대신 키워드 가능
+
+language = 'Python'
+version = 3.6
+print(f'Hello, {language} {version}') # f ==> format
+print('!', '{0:<10}'.format('python'), '!')
+print('!', '{0:>10}'.format('python'), '!')
+print()
+
+# %%
+print('%03d' % 1) # '%0개수d' % 숫자
+
+# %% 
+print('{0:03d}'.format(35)) # '{인덱스:0개수d}'.format(숫자)
+print('{0:0<10}'.format(15))  #{인덱스:[[채우기]정렬][길이][.자릿수][자료형]}   # 길이 10, 왼쪽정렬, 남는공간 0으로 채움
+print('{0:x>10}'.format(15)) 
