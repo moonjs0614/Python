@@ -1,0 +1,28 @@
+// 리스트와 튜플 연습
+a = [38, 21, 53, 62, 19]
+print(a)
+person = ['james', 17, 175.3, True]
+print(person)
+print()
+
+print(range(10))
+b = list(range(10))
+print(b)
+print()
+
+c = list(range(-4, 10, 2))
+print(c)
+print()
+
+d = (38, 21, 53, 62, 19)
+print(d)
+print()
+
+e = tuple(range(10))
+print(e)
+print()
+
+f = [1, 2, 3]
+print(tuple(f))
+g = (4 ,5 ,6)
+print(list(g))
