@@ -1,0 +1,18 @@
+// 문자열 연습
+hello = 'Hello, world!'
+print(hello)
+print()
+
+Hello = '''Hello, world!
+안녕하세요.
+Python 입니다.'''
+print(Hello)
+print()
+
+s = "Python isn't difficult"
+print(s)
+print()
+
+a = 'Python isn\'t difficult'
+print(a)
+print()
