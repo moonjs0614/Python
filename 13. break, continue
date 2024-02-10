@@ -1,0 +1,29 @@
+// break, continue 연습
+i = 0
+while True:
+    print(i)
+    i += 1
+    if i == 10:
+        break
+print()
+
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+
+i = 0
+while i < 10:
+    i += 1
+    if i % 2 == 0:
+        continue
+    print(i)
+print()
+
+i = 0
+count = int(input('반복할 횟수: '))
+while True:
+    print(i)
+    i += 1
+    if i  == count:
+        break
