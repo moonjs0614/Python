@@ -1,0 +1,30 @@
+// while 문 연습
+i = 0
+while i < 10:
+    print('Hello, world!', i)
+    i += 1
+print()
+    
+i = 1
+while i <= 10:
+    print('안녕하세요', i)
+    i += 1
+print()
+    
+i = 10
+while i > 0:
+    print('python', i)
+    i -= 1
+print()
+    
+count = int(input('반복할 횟수: '))
+while count > 0:
+    print('bye', count)
+    count -= 1
+print()
+
+import random
+i = 0
+while i != 3:
+    i = random.randint(1, 6)
+    print(i)
